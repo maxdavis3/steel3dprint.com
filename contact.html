@@ -1,168 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Steel3d Print - Precision Metal Parts, Printed to Perfection">
-    <meta name="keywords" content="3d metal printing, steel3dprint, metal, printing, professional services, quality, innovation, max davis, ben stagl, ally reza, chilab, chilab studio, titobi, chicago, manufacturing, functional, 3d, prototype">
-    <meta property="og:title" content="Steel3d Print | Precision Metal Parts, Printed to Perfection">
-    <meta property="og:description" content="Contact Steel3d Print - Precision Metal Parts, Printed to Perfection">
-    <meta name="author" content="Max Davis, Ben Stagl, Ally Reza - ChiLab Studio">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1529940316268-e245e031bcd1?w=600&q=80">
-    <title>Contact Steel3d Print</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Steel3D Industrial | Steel 3D Printing Quote</title>
+  <link rel="stylesheet" href="shared-metal3d-styles.css">
+  <style>
+    :root {
+      --primary-color: #2C3E50;
+      --secondary-color: #34495E;
+      --accent-color: #3498DB;
+    }
+
+    .navbar-brand {
+      color: var(--primary-color);
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .navbar-nav a::after {
+      background-color: var(--primary-color);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #2C3E50 0%, #34495E 50%, #455A64 100%);
+      min-height: 300px;
+    }
+
+    .form-submit {
+      background: linear-gradient(135deg, #2C3E50, #34495E);
+    }
+
+    .form-control:focus {
+      border-color: var(--primary-color);
+      box-shadow: 0 0 0 3px rgba(44, 62, 80, 0.1);
+    }
+
+    .contact-icon {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto 1rem;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      background: linear-gradient(135deg, #2C3E50, #34495E);
+      color: white;
+    }
+  </style>
 </head>
 <body>
-    <div class="grain-overlay"></div>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-brand">Steel3D Industrial</div>
+      <button class="navbar-toggle">☰</button>
+      <ul class="navbar-nav">
+        <li><a href="steel3dprint-index.html">Home</a></li>
+        <li><a href="steel3dprint-about.html">About</a></li>
+        <li><a href="steel3dprint-services.html">Services</a></li>
+        <li><a href="steel3dprint-contact.html" class="cta-button">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <header class="site-header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="index.html" class="nav-logo">
-                    <span class="logo-bracket">[</span><span class="logo-text">Steel3d Print</span><span class="logo-bracket">]</span>
-                </a>
-                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
-                </button>
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
-                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-background"><img src="images/01-titanium-turbine.png" alt="Metal 3D Printing" loading="lazy"><div class="hero-overlay"></div></div><div class="hero-content">
+      <h1>Get in Touch</h1>
+      <p>Request a quote or DFM analysis for your steel 3D printing project</p>
+    </div>
+  </section>
 
-    <main>
-        <section class="page-hero">
-            <div class="page-hero-bg">
-                <img src="https://images.unsplash.com/photo-1529940316268-e245e031bcd1?w=600&q=80" alt="Contact Steel3d Print" loading="lazy">
-                <div class="page-hero-overlay"></div>
-            </div>
-            <div class="page-hero-content">
-                <h1>Contact Us</h1>
-                <p class="page-hero-subtitle">Get in touch with our team to discuss your 3d metal printing needs</p>
-            </div>
-        </section>
+  <!-- Contact Content -->
+  <section>
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2>Contact Information</h2>
 
-        <section class="contact-section">
-            <div class="container">
-                <div class="contact-grid">
-                    <div class="contact-info animate-in">
-                        <h2>Let&rsquo;s Start a Conversation</h2>
-                        <p>Whether you have a question about our services, need a custom quote, or want to discuss a potential project, our team is ready to help.</p>
-                        <div class="contact-cards">
-                            <div class="contact-card">
-                                <div class="contact-card-icon">&#128338;</div>
-                                <h4>Business Hours</h4>
-                                <p>Monday &ndash; Friday: 9:00 AM &ndash; 5:00 PM EST</p>
-                            </div>
-                            <div class="contact-card">
-                                <div class="contact-card-icon">&#9993;</div>
-                                <h4>Response Time</h4>
-                                <p>We typically respond within 24 business hours.</p>
-                            </div>
-                            <div class="contact-card">
-                                <div class="contact-card-icon">&#9742;</div>
-                                <h4>Direct Contact</h4>
-                                <p>info@steel3dprint.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-form-wrapper animate-in">
-                        <h2>Request a Quote</h2>
-                        <form action="https://formspree.io/f/xyzformid" method="POST" enctype="multipart/form-data" class="contact-form" id="rfqForm">
-                            <div class="form-group">
-                                <label for="name">Full Name <span class="required">*</span></label>
-                                <input type="text" id="name" name="name" required placeholder="Your full name">
-                                <div class="form-error" id="name-error"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email Address <span class="required">*</span></label>
-                                <input type="email" id="email" name="email" required placeholder="your@email.com">
-                                <div class="form-error" id="email-error"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="company">Company</label>
-                                <input type="text" id="company" name="company" placeholder="Your company name">
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message <span class="required">*</span></label>
-                                <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
-                                <div class="form-error" id="message-error"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="attachment">Attach File (optional)</label>
-                                <input type="file" id="attachment" name="attachment">
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-large btn-submit">Send Message</button>
-                        </form>
-                    </div>
-                </div>
+          <div style="display: flex; gap: 1.5rem; margin-bottom: 2rem;">
+            <div class="contact-icon" style="margin: 0; flex-shrink: 0;">📞</div>
+            <div>
+              <div style="font-weight: 600; margin-bottom: 0.5rem;">Phone</div>
+              <div style="color: #666;">
+                <a href="tel:+15552345678" style="color: var(--primary-color); font-weight: 500;">+1 (555) 234-5678</a><br>
+                Monday-Friday: 8 AM - 6 PM EST
+              </div>
             </div>
-        </section>
+          </div>
 
-        <section class="cta-section">
-            <div class="cta-content">
-                <h2>Prefer to Talk?</h2>
-                <p>Our team is available to discuss your project directly.</p>
-                <a href="mailto:info@steel3dprint.com" class="btn btn-large">Email Us Directly</a>
+          <div style="display: flex; gap: 1.5rem; margin-bottom: 2rem;">
+            <div class="contact-icon" style="margin: 0; flex-shrink: 0;">✉️</div>
+            <div>
+              <div style="font-weight: 600; margin-bottom: 0.5rem;">Email</div>
+              <div style="color: #666;">
+                <a href="mailto:info@steel3dindustrial.com" style="color: var(--primary-color); font-weight: 500;">info@steel3dindustrial.com</a><br>
+                <a href="mailto:quote@steel3dindustrial.com" style="color: var(--primary-color); font-weight: 500;">quote@steel3dindustrial.com</a>
+              </div>
             </div>
-            <div class="cta-background">
-                <img src="https://images.unsplash.com/photo-1629407119384-d42320c3e576?w=600&q=80" alt="Steel3d Print" loading="lazy">
-            </div>
-        </section>
-    </main>
+          </div>
 
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-main">
-                <div class="footer-brand">
-                    <div class="footer-logo">Steel3d Print</div>
-                    <p>Precision Metal Parts, Printed to Perfection</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="services.html">Service 1</a></li>
-                            <li><a href="services.html">Service 2</a></li>
-                            <li><a href="services.html">Service 3</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Contact</h4>
-                        <ul>
-                            <li>info@steel3dprint.com</li>
-                        </ul>
-                    </div>
-                </div>
+          <div style="display: flex; gap: 1.5rem; margin-bottom: 2rem;">
+            <div class="contact-icon" style="margin: 0; flex-shrink: 0;">📍</div>
+            <div>
+              <div style="font-weight: 600; margin-bottom: 0.5rem;">Headquarters</div>
+              <div style="color: #666;">
+                Steel3D Industrial, Inc.<br>
+                Manufacturing Complex<br>
+                Industrial Zone<br>
+                USA
+              </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Steel3d Print. All rights reserved.</p>
-            </div>
+          </div>
+
+          <h3 style="margin-top: 3rem; margin-bottom: 1rem;">Why Choose Steel3D?</h3>
+          <ul class="feature-list">
+            <li>Fast turnaround: 3-4 weeks vs 12-16 weeks traditional</li>
+            <li>Zero tooling cost: Design iterations cost nothing</li>
+            <li>Expert engineering: 50+ years combined tooling experience</li>
+            <li>Hardness verified: 100% testing to 50-52 HRC specification</li>
+            <li>ISO certified: 9001:2015 quality management</li>
+          </ul>
         </div>
-    </footer>
 
-    <script src="js/main.js"></script>
+        <div>
+          <h2>Request a Quote</h2>
+
+          <form id="contact-form">
+            <input type="hidden" name="from_name" value="Steel3D Industrial Contact">
+            <input type="hidden" name="redirect" value="https://www.steel3dindustrial.com/thank-you.html">
+
+            <div class="form-message"></div>
+
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company Name *</label>
+              <input type="text" id="company" name="company" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="industry">Industry *</label>
+              <select id="industry" name="industry" class="form-control" required>
+                <option value="">-- Select Industry --</option>
+                <option value="injection-molding">Injection Molding / Tooling</option>
+                <option value="bearings">Bearings & Mechanical</option>
+                <option value="medical">Medical Instruments</option>
+                <option value="hydraulics">Hydraulics & Fluid Systems</option>
+                <option value="automotive">Automotive / OEM</option>
+                <option value="chemical">Chemical Processing</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="project-type">Project Type *</label>
+              <select id="project-type" name="project_type" class="form-control" required>
+                <option value="">-- Select Type --</option>
+                <option value="mold-insert">Injection Mold Insert</option>
+                <option value="bearing-assembly">Bearing Assembly</option>
+                <option value="surgical-instrument">Surgical Instrument</option>
+                <option value="tooling">Precision Tooling</option>
+                <option value="prototype">Prototype/One-off</option>
+                <option value="production">Production Parts (10+ units)</option>
+                <option value="consultation">Design Consultation</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="material">Preferred Material *</label>
+              <select id="material" name="material" class="form-control" required>
+                <option value="">-- Select Material --</option>
+                <option value="17-4ph">17-4 PH (1365 MPa hardness)</option>
+                <option value="316l">316L Stainless (corrosion resistant)</option>
+                <option value="unsure">Unsure - need recommendation</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="timeline">Project Timeline *</label>
+              <select id="timeline" name="timeline" class="form-control" required>
+                <option value="">-- Select Timeline --</option>
+                <option value="immediate">Immediate (Rush)</option>
+                <option value="1-2-weeks">1-2 Weeks</option>
+                <option value="1-month">1 Month</option>
+                <option value="2-3-months">2-3 Months</option>
+                <option value="flexible">Flexible</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Project Description *</label>
+              <textarea id="message" name="message" class="form-control" required placeholder="Describe your project: current manufacturing method, number of parts, specifications, key challenges..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="cad-files">CAD Files (Optional)</label>
+              <input type="text" id="cad-files" name="cad_files" class="form-control" placeholder="File format (STEP, IGES, STL)">
+            </div>
+
+            <div class="form-group">
+              <label for="volume">Estimated Part Size (cubic inches)</label>
+              <input type="text" id="volume" name="volume" class="form-control" placeholder="Length × Width × Height approximate">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 2rem;">
+              <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal;">
+                <input type="checkbox" name="subscribe" value="yes">
+                Subscribe to tooling insights and case studies
+              </label>
+            </div>
+
+            <button type="submit" class="form-submit">Send Inquiry</button>
+
+            <p style="font-size: 0.85rem; color: #999; margin-top: 1rem;">
+              * Required fields. We'll respond within 24 hours with detailed quote and timeline.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section style="background: #f8f9fa;">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="display: grid; gap: 1.5rem; margin-top: 2rem;">
+        <div>
+          <h4>How much faster is 3D printing vs traditional tooling?</h4>
+          <p>Typically 3-4 weeks vs 12-16 weeks for traditional mold making. Design changes cost nothing with 3D printing vs $5,000-20,000 for traditional mold modifications.</p>
+        </div>
+
+        <div>
+          <h4>What hardness do you achieve?</h4>
+          <p>17-4 PH reaches 50-52 HRC post-hardening, matching traditional forged tool steel. 100% of parts are hardness-tested for specification compliance.</p>
+        </div>
+
+        <div>
+          <h4>Is the quality equivalent to traditional tooling?</h4>
+          <p>Yes. 99.5% density DMLS steel equals forged material properties. Parts perform identically to traditional mold inserts in production molding.</p>
+        </div>
+
+        <div>
+          <h4>How are CAD files handled securely?</h4>
+          <p>Email to quote@steel3dindustrial.com with encryption. We maintain strict confidentiality. Alternatively, use our secure file portal.</p>
+        </div>
+
+        <div>
+          <h4>Can you do design optimization?</h4>
+          <p>Yes. Our DFM analysis is free with quotes. We recommend cooling channel placement, support strategies, and cost-saving design modifications.</p>
+        </div>
+
+        <div>
+          <h4>What is the minimum order quantity?</h4>
+          <p>One part. We consolidate builds to optimize costs and pass savings to customers. Batch builds available for higher volumes.</p>
+        </div>
+
+        <div>
+          <h4>Do you offer expedited service?</h4>
+          <p>Yes. Rush service (1-2 weeks) available with 20% surcharge. Contact us directly for emergency tooling needs.</p>
+        </div>
+
+        <div>
+          <h4>What about dimensional accuracy?</h4>
+          <p>Standard tolerances ±0.003" + ±0.001"/in. Tighter tolerances available with CNC finishing. CMM verification upon request.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background: linear-gradient(135deg, #2C3E50, #34495E); color: white; text-align: center;">
+    <div class="container">
+      <h2 style="color: white;">Ready to Eliminate Tooling Delays?</h2>
+      <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem; margin-bottom: 2rem;">Send us your CAD files above or call +1 (555) 234-5678</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Steel3D Industrial</h4>
+        <p>Industrial-grade steel 3D printing for tooling, bearings, and precision manufacturing.</p>
+        <div class="social-links">
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="Twitter">𝕏</a>
+          <a href="#" title="Email">✉</a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="steel3dprint-index.html">Home</a>
+        <a href="steel3dprint-about.html">About</a>
+        <a href="steel3dprint-services.html">Services</a>
+        <a href="steel3dprint-contact.html">Contact</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Services</h4>
+        <a href="steel3dprint-services.html#services">Tooling Design</a>
+        <a href="steel3dprint-services.html#services">DMLS Production</a>
+        <a href="steel3dprint-services.html#services">Heat Treatment</a>
+        <a href="steel3dprint-services.html#services">Surgical Instruments</a>
+      </div>
+
+      <div class="footer-section">
+        <h4>Support</h4>
+        <a href="#faq">FAQ</a>
+        <a href="steel3dprint-services.html">Design Guidelines</a>
+        <a href="#">Material Specs</a>
+        <a href="#">Case Studies</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Steel3D Industrial. All rights reserved. | Privacy Policy | Terms of Service</p>
+    </div>
+  </footer>
+
+  <script src="shared-metal3d-scripts.js"></script>
 </body>
 </html>
